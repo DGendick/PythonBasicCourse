@@ -1,0 +1,2 @@
+CMD Command:
+python LifeGuardTask2.py < LifeGuardTask2_input.txt > 1_ex_LifeGuardTask2_actual_output.txt
