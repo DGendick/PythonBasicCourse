@@ -54,7 +54,7 @@ def count(d1, d2, thetta1_rad, h, v_sand, n):
 
 #=======optimal thetta value counting function=======
 def count_optimal(d1, d2, h, v_sand, n):
-    for thetta_2 in range(360):             #cycle for check all angles
+    for thetta_2 in range(90):             #cycle for check all angles
         thetta2_rad = math.radians(thetta_2)#convert degrees 2 radians 
         x = d1* math.tan(thetta2_rad)       #Straight sand route length
         L1 = math.sqrt(x**2 + d1**2)        #Sand route length
